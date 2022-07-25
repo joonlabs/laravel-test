@@ -66,5 +66,5 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
-          tags: joonlabs/laravel-test:latest
+          tags: ghcr.io/joonlabs/laravel-test:latest
           labels: ${{ steps.meta.outputs.labels }}
